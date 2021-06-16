@@ -1,0 +1,7 @@
+function Deeplabcut(filename)
+a =xlsread(filename,1,'C:C');
+b =xlsread(filename,1,'F:F');
+x=a-b;
+y=xlsread(filename,1,'A:A');
+plot(y,x);
+end
